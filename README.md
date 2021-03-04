@@ -4,5 +4,6 @@ This program calculates total time spent on watching movies and tv-series based 
 
 # Scraping Speed
 Only Movies - 4 secs/page
+#
 Movies and Tv_series - 2 mins/page
 
