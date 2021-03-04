@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-print("1) Calculate Only Movie Watching Time(Faster)")
-print("2) Calculate Both Movie and TV-Series Watching Times(Slower) ")
+print("1) Calculate Only Movie Watching Time(Faster - 4 secs/page)")
+print("2) Calculate Both Movie and TV-Series Watching Times(Slower - 2 mins/page) ")
 
 while True:
     choiceMT = int(input("Choose 1 or 2: "))
