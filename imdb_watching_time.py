@@ -43,7 +43,10 @@ def runtimeToMin(runtime): # convert runtime string to minutes integer
         if runtime[i] == "h":
             hr = int(runtime[:i - 1])
         if runtime[i] == "m":
-            min = int(runtime[i - 3:i])
+            if i-3>=0:
+                min = int(runtime[i - 3:i])
+            else:
+                min = int(runtime[:i])
     runtime = 60 * hr + min
     return runtime
 
